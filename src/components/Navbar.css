@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+.navbar {
+    width: 100%;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    z-index: 50;
+    height: 150px;
+}
+.imageContainer {
+
+}
+.image {
+    height: 120px;
+    width: auto;
+}
+.navbar > h1 {
+    color: #f4f4f4;
+    font-size: 3rem;
+    font-family: Raleway;
+
+    padding: 50px;
+}
+.hamburger__menu {
+    width: 30px;
+    height: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.hamburger__menu > div {
+    width: 100%;
+    height: 3px;
+    background: #f4f4f4;
+}
+
+@media (max-width:960px) {
+    .navbar {
+        height: 110px;
+    }
+    .image {
+        height: 90px;
+        width: auto;
+    }
+    .navbar > h1 {
+        font-size: 2rem;
+        padding: 100px;
+    }
+    .hamburger__menu {
+        display: flex;
+    }
+}
+@media (max-width: 585px) {
+    .navbar {
+        height: 110px;
+    }
+    .image {
+        height: 80px;
+        width: auto;
+    }
+    .navbar > h1 {
+        font-size: 1.3rem;
+        padding: 50px;
+    }
+}
