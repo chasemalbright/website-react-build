@@ -26,17 +26,17 @@ const HomeScreen = () => {
                     
                 </Link>
 
-                <Link className="item" to="skills">
+                <Link className="item" to="/skills">
                     <h1>Skills</h1>
                     <p>What I can do</p>
 
                 </Link>
 
-                <div className="item">
+                <Link className="item" to="/projects">
                     <h1>Projects</h1>
                     <p>What I have been working on</p>
 
-                </div>
+                </Link>
 
             </div>
 

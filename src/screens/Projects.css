@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+.projectsContainer {
+    display: flex;
+    max-width: 1300px;
+    margin: 2rem auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects {
+    display: flex;
+    max-width: 1300px;
+    margin: 2rem auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project {
+    width: 360px;
+    height: 380px;
+    text-align: center;
+
+    margin: 35px;
+    margin-top: 40px;
+}
+.project h1 {
+    color: #141414;
+    margin: 8px;
+    font-family: Raleway;
+}
+.project h2 {
+    color: green;
+    font-family: Raleway;
+    margin: 12px;
+}
+.project a {
+    color: rgb(64, 64, 190);
+}
+.content {
+    color: #141414;
+    font-family: Raleway;
+    font-weight: 550;
+    margin: 5px;
+    margin-bottom: 10px;
+    font-size: .98rem;
+}
+.skillLabel {
+    font-family: Raleway;
+    color: gray;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 10px;
+}
+.skills {
+    width: 355px;
+    height: 60px;    
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.skill {
+    height: 25px;
+    width: 87px;
+    border-radius: 25px;
+    border: none;
+    font-family: Raleway;
+    font-weight: 600;
+    background-color: #911F27;
+    color: #f4f4f4;
+    padding: 3px;
+    font-size: .9rem;
+}
+
+@media (max-width:960px) {
+    .project {
+        margin: 10px;
+        margin-top: 25px;
+    }
+}
+

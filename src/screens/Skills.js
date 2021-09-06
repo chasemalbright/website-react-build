@@ -43,6 +43,7 @@ const Skills = () => {
                 <p>Microsoft Office <span>- word, powerpoint, excel</span> </p>
                 <p>Circuit Design <span>- basic design of hardware components</span> </p>
                 <p>Adobe XD <span>- for application design and mock up</span> </p>
+                <p>Google Authentication <span>- Authentication using Gmail</span> </p>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@ function Work() {
 
                 <div className="job">
                     <img src="https://energy-dialogues.com/mef/wp-content/uploads/sites/5/2014/07/Genscape.png" className="company"/>
-                    <h1>Intern</h1>
+                    <h1>Intern/Analyst</h1>
                     <p className="label">Houston-Summer 2018</p>
                     <p className="content">
                         During this internship, I was part of a team that developed a
