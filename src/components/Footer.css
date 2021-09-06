@@ -27,6 +27,9 @@
 .footerItem:active {
     color: gray;
 }
+a {
+    text-decoration: none;
+}
 
 
 @media (max-width:960px) {

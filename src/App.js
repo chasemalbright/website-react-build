@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 //import screens
 import HomeScreen from './screens/HomeScreen';
 import Work from './screens/Work'
+import Skills from './screens/Skills'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={HomeScreen} />
           <Route exact path="/workexperience" component={Work}  />
+          <Route exact path="/skills" component={Skills} />
         </Switch>
       </main>
 

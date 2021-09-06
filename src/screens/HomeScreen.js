@@ -26,11 +26,11 @@ const HomeScreen = () => {
                     
                 </Link>
 
-                <div className="item">
+                <Link className="item" to="skills">
                     <h1>Skills</h1>
                     <p>What I can do</p>
 
-                </div>
+                </Link>
 
                 <div className="item">
                     <h1>Projects</h1>

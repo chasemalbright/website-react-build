@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+.skillScreen {
+    display: flex;
+    max-width: 1300px;
+    margin: 2rem auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about {
+    text-align: center;
+    height: 200px;
+    width: 800px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.about > h1 {
+    color: #141414;
+    margin: 20px;
+    font-family: Raleway;
+    font-size: 2rem;
+}
+.about > p {
+    font-size: 1.2rem;
+    color: gray;
+    font-family: Raleway;
+    margin: 20px;
+}
+.skillContainer {
+    text-align: center;
+}
+.skillContainer h1 {
+    font-size: 1.8rem;
+    font-family: Raleway;
+    color: green;
+    margin-bottom: 30px;
+}
+.skillContainer p {
+    padding: 10px;
+    color: #141414;
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.skillContainer span {
+    color: gray;
+}
+
+.redLabel {
+    margin-top: 50px;
+}
+.redLabel h1 {
+    color: rgb(172, 63, 63);
+}
+.blueLabel {
+    margin-top: 50px;
+}
+.blueLabel h1 {
+    color: rgb(64, 64, 190);
+}
+
+@media (max-width:960px) {
+    .about {
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .about > h1 {
+        font-size: 1.5rem;
+    }
+
+    .about > p {
+        font-size: 1rem;
+        margin: 10px;
+    }
+    .skillContainer h1 {
+        font-size: 1.5rem;
+    }
+    .skillContainer p {
+        font-size: 1rem;
+
+    }
+    .skillContainer {
+        padding: 15px;
+    }
+}

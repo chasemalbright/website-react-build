@@ -28,10 +28,17 @@ function Work() {
                         using a variety of tools and environments such as pandas and 
                         tensorflow. Checkout the code on my Github! I learned about data collection
                         and what datapoints would be of interest to clients and investors.
-                         In this internship
-                        I also got experience with oil and gas 
+                        In this internship, I also got experience with oil and gas 
                         price analysis and forecasting.
                     </p>
+                    <p className="skillLabel">Skills Learned:</p>
+                    <div className="skills">
+                        <div className="skill">Python</div>
+                        <div className="skill">ML/AI</div>
+                        <div className="skill">Tensorflow</div>
+                        <div className="skill">Excel</div>
+                        <div className="skill">Forecasting</div>                                 
+                    </div>
                 </div>
 
                 <div className="job">
@@ -47,6 +54,16 @@ function Work() {
                         blockchain is developed and maintained and how a complex application is 
                         deployed with microservices such as docker and kubernetes.
                     </p>
+                    <p className="skillLabel">Skills Learned:</p>
+                    <div className="skills">
+                        <div className="skill">React</div>
+                        <div className="skill">MongoDB</div>
+                        <div className="skill">GoLang</div>
+                        <div className="skill">APIs</div>
+                        <div className="skill">Startups</div> 
+                        <div className="skill">Git</div>
+                        <div className="skill">Docker</div>                            
+                    </div>
                 </div>
 
                 <div className="job">
@@ -57,15 +74,23 @@ function Work() {
                         4-tower is a hospital software startup that has an app for hospitals to
                         manage inventory and track equipment. During this internship I got to experience 
                         working on a small team with the founder and other employees. My job was to help build 
-                        features with angular and style components with css. I also helped maintain product 
+                        features with angular and style components with css. I got learn the basics of angular. I also helped maintain product 
                         databases and communicate with customers. This experience was very exciting and I learned
                         a lot about early stage startups.
                     </p>
+                    <p className="skillLabel">Skills Learned:</p>
+                    <div className="skills">
+                        <div className="skill">Javascript</div>
+                        <div className="skill">Database</div>
+                        <div className="skill">Angular</div>
+                        <div className="skill">CSS</div>
+                        <div className="skill">Startups</div>                       
+                    </div>
                 </div>
             </div>
 
 
-            <div className="about">
+            <div className="about about1">
                 <h1>What I am interested in...</h1>
                 <p>
                     I am interested working in most any technology field.

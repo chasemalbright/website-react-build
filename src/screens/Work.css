@@ -3,7 +3,7 @@
 .work {
     display: flex;
     max-width: 1300px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     align-items: center;
     flex-direction: column;
 }
@@ -37,12 +37,13 @@
 }
 
 .job {
-    height: 400px;
+    min-height: 480px;
     min-width: 400px;
     max-width: 400px;
-    margin: 20px;
+    margin: 10px;
+    margin-bottom: 40px;
     text-align: center;
-    margin: 25px;
+
 }
 .job h1 {
     font-family: Raleway;
@@ -59,6 +60,7 @@
     font-family: Raleway;
     color: green;
     font-weight: 800;
+    padding: 10px;
 }
 
 
@@ -71,6 +73,35 @@
     width: auto;
     background-color: #444;
     border-radius: 10px;
+}
+.skillLabel {
+    font-family: Raleway;
+    color: #141414;
+    font-weight: bold;
+    padding: 8px;
+}
+.skills {
+    width: 355px;
+    height: 60px;    
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.skill {
+    height: 25px;
+    width: 87px;
+    border-radius: 25px;
+    border: none;
+    font-family: Raleway;
+    font-weight: 600;
+    background-color: #911F27;
+    color: #f4f4f4;
+    padding: 3px;
+    font-size: .9rem;
 }
 
 @media (max-width:1350px) {
@@ -95,7 +126,8 @@
     }
     .workContainer {
         flex-wrap: wrap;
-        margin-top: 10px;
+        margin-top: 0;
+        margin-bottom: 25px;
     }
 
 }
