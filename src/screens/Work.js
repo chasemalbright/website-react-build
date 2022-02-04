@@ -18,7 +18,9 @@ function Work() {
 
 
                 <div className="job">
-                    <img src="https://energy-dialogues.com/mef/wp-content/uploads/sites/5/2014/07/Genscape.png" className="company"/>
+                    <a href="https://www.woodmac.com/" target="_blank">
+                        <img src="https://energy-dialogues.com/mef/wp-content/uploads/sites/5/2014/07/Genscape.png" className="company"/>
+                    </a>
                     <h1>Intern/Analyst</h1>
                     <p className="label">Houston-Summer 2018</p>
                     <p className="content">
@@ -42,7 +44,9 @@ function Work() {
                 </div>
 
                 <div className="job">
-                    <img src="https://offers.datagumbo.com/hs-fs/hubfs/DataGumbo_logo_final_darkText.png?width=413&name=DataGumbo_logo_final_darkText.png" className="company"/>
+                    <a href="https://www.datagumbo.com/" target="_blank">
+                        <img src="https://offers.datagumbo.com/hs-fs/hubfs/DataGumbo_logo_final_darkText.png?width=413&name=DataGumbo_logo_final_darkText.png" className="company"/>
+                    </a>
                     <h1>Software Engineering Intern</h1>
                     <p className="label">Houston-Summer 2021</p>
                     <p className="content">
@@ -67,7 +71,9 @@ function Work() {
                 </div>
 
                 <div className="job">
-                    <img src="https://www.4-tower.com/assets/Logo_white.svg" className="company4"/>
+                    <a href="https://www.4-tower.com/" target="_blank">
+                        <img src="https://www.4-tower.com/assets/Logo_white.svg" className="company4"/>
+                    </a>
                     <h1>Software Engineering Intern</h1>
                     <p className="label">Houston-Summer 2020</p>
                     <p className="content">

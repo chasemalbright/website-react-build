@@ -13,6 +13,7 @@ import HomeScreen from './screens/HomeScreen';
 import Work from './screens/Work'
 import Skills from './screens/Skills'
 import Projects from './screens/Projects'
+import Research from './screens/Research';
 
 function App() {
   const [sideToggle, setSideToggle] = useState(false);
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/workexperience" component={Work}  />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/research" component={Research} />
         </Switch>
       </main>
 

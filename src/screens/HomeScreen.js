@@ -37,8 +37,14 @@ const HomeScreen = () => {
                     <p>What I have been working on</p>
 
                 </Link>
+                
+                <Link className="item" to="/research">
+                    <h1>Research</h1>
+                    <p>My undergraduate research experience</p>
+                </Link>
 
             </div>
+            
 
         </div>
     )
