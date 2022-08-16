@@ -8,13 +8,39 @@ function Work() {
             <div className="about">
                 <h1>My Work Experience</h1>
                 <p>
-                    I have professional experience at 3 reputable companies
+                    I have professional experience at 4 reputable companies
                     and have learned so much from each of them. I am always
                     looking for new opportunities!
                 </p>
             </div>
 
             <div className="workContainer">
+
+            <div className="job">
+                    <a href="https://www.fidelity.com/" target="_blank">
+                        <img src="https://1000logos.net/wp-content/uploads/2017/11/Fidelity-Logo.png" className="company"/>
+                    </a>
+                    <h1>Software Engineering Intern</h1>
+                    <p className="label">Westlake-Summer 2023</p>
+                    <p className="content">
+                        During this summer at Fidelity, I worked on the Digital 
+                        Appointment Platform team to build a full stack tool to view 
+                        zoom authorization metrics of financial advisors. My project 
+                        was able to reduce the time spent manually gathering data by business 
+                        analysts by several hours. This reporting tool was built with java, angular,
+                        node, and graphQL. I was also able to learn some specialized skills such as
+                        SSO, authentication, and several security applications that the financial 
+                        industry uses.
+                    </p>
+                    <p className="skillLabel">Skills Learned:</p>
+                    <div className="skills">
+                        <div className="skill">Java</div>
+                        <div className="skill">GraphQL</div>
+                        <div className="skill">Angular</div>
+                        <div className="skill">NodeJS</div>
+                        <div className="skill">APIs</div>                                 
+                    </div>
+                </div>
 
 
                 <div className="job">

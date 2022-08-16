@@ -10,7 +10,7 @@ const HomeScreen = () => {
             <div className="about">
                 <h1>About Me</h1>
                 <p>
-                    Hello I am Chase Albright, I am a sophomore computer engineering major at
+                    Hello I am Chase Albright, I am a junior computer engineering major at
                     Texas A&M. My professional interests are applications development, full-stack 
                     engineering, quantitative trading, blockchain, and startups. I am from Houston Tx 
                     and love working on new and exciting things. 
