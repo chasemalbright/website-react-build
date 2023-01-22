@@ -21,7 +21,7 @@ function Work() {
                         <img src="https://1000logos.net/wp-content/uploads/2017/11/Fidelity-Logo.png" className="company"/>
                     </a>
                     <h1>Software Engineering Intern</h1>
-                    <p className="label">Westlake-Summer 2023</p>
+                    <p className="label">Westlake-Summer 2022</p>
                     <p className="content">
                         During this summer at Fidelity, I worked on the Digital 
                         Appointment Platform team to build a full stack tool to view 
@@ -38,7 +38,7 @@ function Work() {
                         <div className="skill">GraphQL</div>
                         <div className="skill">Angular</div>
                         <div className="skill">NodeJS</div>
-                        <div className="skill">APIs</div>                                 
+                        <div className="skill">AWS</div>                                 
                     </div>
                 </div>
 

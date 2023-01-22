@@ -2,7 +2,7 @@ import './Footer.css'
 
 import React from 'react'
 import {Link} from 'react-router-dom'
-import resume from '../assets/Chaseresume.pdf'
+import resume from '../assets/CHASERESUME2023.pdf'
 
 const Footer = () => {
     return (

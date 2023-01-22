@@ -31,7 +31,8 @@ const Skills = () => {
                 <p>Machine Learning <span>- experience from personal projects and internships</span> </p> 
                 <p>Hardware engineering <span>- experience from undergraduate research</span> </p>   
                 <p>Java <span>- experience from internships</span> </p> 
-                <p>GraphQL <span>- experience from internships</span> </p>        
+                <p>GraphQL <span>- experience from internships</span> </p>   
+                <p>DynamoDB <span>- experience from internships</span> </p>  
             </div>
             <div className="skillContainer redLabel">
                 <h1>Deployment and Controls</h1>
@@ -41,6 +42,7 @@ const Skills = () => {
                 <p>GIT <span>- for code source control</span> </p>
                 <p>Bit-bucket <span>- for work related repositories</span> </p>
                 <p>Jenkins <span>- for work related deployments</span> </p>
+                
             </div>
             <div className="skillContainer blueLabel">
                 <h1>Miscellaneous</h1>
