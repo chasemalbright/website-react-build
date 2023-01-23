@@ -1,0 +1,55 @@
+[debug] [2023-01-23T21:20:02.630Z] ----------------------------------------------------------------------
+[debug] [2023-01-23T21:20:02.633Z] Command:       C:\Users\chase\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\chase\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init hosting:github
+[debug] [2023-01-23T21:20:02.633Z] CLI Version:   9.4.0
+[debug] [2023-01-23T21:20:02.633Z] Platform:      win32
+[debug] [2023-01-23T21:20:02.633Z] Node Version:  v12.18.1
+[debug] [2023-01-23T21:20:02.635Z] Time:          Mon Jan 23 2023 15:20:02 GMT-0600 (Central Standard Time)
+[debug] [2023-01-23T21:20:02.635Z] ----------------------------------------------------------------------
+[debug] [2023-01-23T21:20:02.635Z] 
+[debug] [2023-01-23T21:20:02.656Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-23T21:20:02.657Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\chase\OneDrive\Desktop\website-react-build
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using react-site-fef38. 
+[debug] [2023-01-23T21:20:26.136Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-site-fef38 [none]
+[debug] [2023-01-23T21:20:26.543Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-site-fef38 200
+[debug] [2023-01-23T21:20:26.543Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-site-fef38 {"projectId":"react-site-fef38","projectNumber":"537466835560","displayName":"react-site","name":"projects/react-site-fef38","resources":{"hostingSite":"react-site-fef38"},"state":"ACTIVE","etag":"1_db35cf5d-a35a-44cc-b5e7-d18a6181fa40"}
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Detected a .git folder at C:\Users\chase\OneDrive\Desktop\website-react-build 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=116991024&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-01-23T21:20:41.082Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"db30e3d4254586ef9600","redirect_uri":"http://localhost:9005","state":"116991024"}
+[debug] [2023-01-23T21:20:41.354Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Mon, 23 Jan 2023 21:20:55 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"379d779098b21a10e5bf9eb116a9a46a\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com objects-origin.githubusercontent.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events *.actions.githubusercontent.com wss://*.actions.githubusercontent.com online.visualstudio.com/api/v1/locations github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com objects-origin.githubusercontent.com secured-user-images.githubusercontent.com/ opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/","x-github-request-id":"1A32:2BD8:7471241:A4B7D0E:63CEFA37"}
+[debug] [2023-01-23T21:20:41.372Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-01-23T21:20:41.610Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-01-23T21:20:41.610Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"chasemalbright","id":54521956,"node_id":"MDQ6VXNlcjU0NTIxOTU2","avatar_url":"https://avatars.githubusercontent.com/u/54521956?v=4","gravatar_id":"","url":"https://api.github.com/users/chasemalbright","html_url":"https://github.com/chasemalbright","followers_url":"https://api.github.com/users/chasemalbright/followers","following_url":"https://api.github.com/users/chasemalbright/following{/other_user}","gists_url":"https://api.github.com/users/chasemalbright/gists{/gist_id}","starred_url":"https://api.github.com/users/chasemalbright/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/chasemalbright/subscriptions","organizations_url":"https://api.github.com/users/chasemalbright/orgs","repos_url":"https://api.github.com/users/chasemalbright/repos","events_url":"https://api.github.com/users/chasemalbright/events{/privacy}","received_events_url":"https://api.github.com/users/chasemalbright/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":19,"public_gists":0,"followers":1,"following":1,"created_at":"2019-08-26T04:06:48Z","updated_at":"2023-01-23T21:20:44Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":66554,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] +  Success! Logged into GitHub as chasemalbright 
+[info] 
