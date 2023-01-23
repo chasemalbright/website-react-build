@@ -7,4 +7,5 @@ This site can be reached from:
 
 ## Tools
 
-Created using [React](https://reactjs.org/)
+* Created using [React](https://reactjs.org/)
+* Deployed with Github and [Firebase](https://firebase.google.com/)
