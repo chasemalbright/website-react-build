@@ -10,12 +10,13 @@
     z-index: 50;
     height: 150px;
 }
-.imageContainer {
-
-}
 .image {
     height: 120px;
     width: auto;
+}
+
+.image-hidden {
+    display: none;
 }
 .navbar > h1 {
     color: #f4f4f4;
