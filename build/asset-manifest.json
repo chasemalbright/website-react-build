@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3b53a4c1.chunk.css",
-    "main.js": "/static/js/main.5ccf4310.chunk.js",
-    "main.js.map": "/static/js/main.5ccf4310.chunk.js.map",
+    "main.js": "/static/js/main.4a4ee52c.chunk.js",
+    "main.js.map": "/static/js/main.4a4ee52c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c962a25f.js",
     "runtime-main.js.map": "/static/js/runtime-main.c962a25f.js.map",
     "static/js/2.a03132d7.chunk.js": "/static/js/2.a03132d7.chunk.js",
@@ -13,12 +13,13 @@
     "static/css/main.3b53a4c1.chunk.css.map": "/static/css/main.3b53a4c1.chunk.css.map",
     "static/js/2.a03132d7.chunk.js.LICENSE.txt": "/static/js/2.a03132d7.chunk.js.LICENSE.txt",
     "static/media/CHASERESUME2023.b904d7b9.pdf": "/static/media/CHASERESUME2023.b904d7b9.pdf",
+    "static/media/TAM-Stack.cbae359a.png": "/static/media/TAM-Stack.cbae359a.png",
     "static/media/portfolio.3e73065c.png": "/static/media/portfolio.3e73065c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c962a25f.js",
     "static/js/2.a03132d7.chunk.js",
     "static/css/main.3b53a4c1.chunk.css",
-    "static/js/main.5ccf4310.chunk.js"
+    "static/js/main.4a4ee52c.chunk.js"
   ]
 }
