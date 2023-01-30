@@ -2,7 +2,7 @@ import './Navbar.css'
 
 import React from 'react'
 import portfolio from '../assets/portfolio.png'
-import TAMU from '../assets/TAM-Stack.png'
+//import TAMU from '../assets/TAM-Stack.png'
 
 const Navbar = ({ click }) => {
     return (
@@ -10,7 +10,7 @@ const Navbar = ({ click }) => {
 
             <div className="imageContainer">
                 <img src={portfolio} alt="photo" className="image"/>
-                <img src={TAMU} alt="tamu" className="image"/>
+                {/* <img src={TAMU} alt="tamu" className="image"/> */}
             </div>
 
             <h1>Chase Albright</h1>
