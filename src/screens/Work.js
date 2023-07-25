@@ -8,9 +8,9 @@ function Work() {
             <div className="about">
                 <h1>My Work Experience</h1>
                 <p>
-                    I have professional experience at 4 reputable companies
-                    and have learned so much from each of them. I am always
-                    looking for new opportunities!
+                    I have professional experience across many organizations and industries. I have played a technical role
+                    in all of my past experiences. Being able to quickly learn and adapt has helped me be successful in creating 
+                    projects that thousands of customers use as well as generate millions of dollars in enterprise value.
                 </p>
             </div>
 
@@ -119,6 +119,31 @@ function Work() {
                         <div className="skill">Startups</div>                       
                     </div>
                 </div>
+
+                <div className="job">
+                    <a href="https://www.capitalone.com/" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Capital_One_logo.svg/1200px-Capital_One_logo.svg.png" className="company"/>
+                    </a>
+                    <h1>Software Engineering Intern</h1>
+                    <p className="label">Plano-Summer 2023</p>
+                    <p className="content">
+                        Capital One runs almost all
+                        of its technology infrastructure ~serverless~ and racks up a yearly AWS bill of almost $1 BILLION. For our summer project, we developed a full-stack
+                        application where developers can easily view and manage their cloud costs across different environments. This app provided information about costly services, resource 
+                        consumption, and suggested optimizations. Once deployed across the organization, our application will save the company an estimated $5 million per year.
+                    </p>
+                    <p className="skillLabel">Skills Learned:</p>
+                    <div className="skills">
+                        <div className="skill">TypeScript</div>
+                        <div className="skill">AWS</div>
+                        <div className="skill">Python</div>
+                        <div className="skill">Jenkins</div>
+                        <div className="skill">LIT</div>                       
+                    </div>
+                </div>
+
+
+
             </div>
 
 
