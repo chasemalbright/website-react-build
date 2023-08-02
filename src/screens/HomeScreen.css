@@ -66,6 +66,20 @@
     transform: scale(1.05);
 }
 
+.title {
+    padding-top: 300px;
+    display: flex;
+    max-width: 1300px;
+    margin: 2rem auto;
+    align-items: center;
+    flex-direction: column;
+}
+.info {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 300px;
+}
+
 
 
 
