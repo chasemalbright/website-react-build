@@ -10,11 +10,7 @@ const HomeScreen = () => {
             <div className="about">
                 <h1>About Me</h1>
                 <p>
-                    Hello my name is Chase Albright, I am a junior computer engineering major at
-                    Texas A&M. Lately, I have been interested in quantitative trading, commodities markets, 
-                    full-stack engineering, and startups. I am from Houston Tx 
-                    and love working on new and exciting things. 
-                </p>
+                    I am a senior computer engineer from Houston, TX. I like to travel and be outside. Trying to have as much fun as possible...               </p>
             </div>
             
             <div className="container">
