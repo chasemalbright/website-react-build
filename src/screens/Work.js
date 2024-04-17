@@ -1,6 +1,8 @@
 import './Work.css'
 import React from 'react'
 
+import logo from '../assets/aspire.png'
+
 function Work() {
     return (
         <div className="work">
@@ -42,6 +44,31 @@ function Work() {
                     </div>
                 </div>
 
+                <div className="job">
+                    <a href="https://www.linkedin.com/company/aspire-commodities-ltd/about/" target="_blank">
+                        <img src={logo} className="company"/>
+                    </a>
+                    <h1>Quantitative Analyst/Trading</h1>
+                    <p className="label">Houston-2024</p>
+                    <p className="content">
+                        Built out algorithmic trading operations and infrastructure for collocation 
+                        on CME and ICE. Developed low latency trading strategies based various OTC futures and 
+                        options products. Developed ML models for predicting S&P and natural gas performance which was utilized in 
+                        trading strategies. Built in-house tools for analyzing natural gas and US power markets. Built 
+                        latency sensitive and high performant proprietary trading systems. Worked with PMs and traders to implement strategies.
+                    </p>
+                    <p className="skillLabel">Skills Learned:</p>
+                    <div className="skills">
+                        <div className="skill">C++</div>
+                        <div className="skill">ML/AI</div>
+                        <div className="skill">Trading</div>
+                        <div className="skill">HFT</div>
+                        <div className="skill">Python</div> 
+                        <div className="skill">Linux</div>
+                        <div className="skill">Stats</div>                                      
+                    </div>
+                </div>
+
 
                 <div className="job">
                     <a href="https://www.woodmac.com/" target="_blank">
@@ -57,7 +84,7 @@ function Work() {
                         tensorflow. Checkout the code on my Github! I learned about data collection
                         and what datapoints would be of interest to clients and investors.
                         In this internship, I also got experience with oil and gas 
-                        price analysis and forecasting.
+                        price analysis and forecasting in various markets.
                     </p>
                     <p className="skillLabel">Skills Learned:</p>
                     <div className="skills">

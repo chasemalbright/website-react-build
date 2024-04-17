@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0cf134e.chunk.css",
-    "main.js": "/static/js/main.a388e514.chunk.js",
-    "main.js.map": "/static/js/main.a388e514.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c962a25f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c962a25f.js.map",
-    "static/js/2.d0bf8f28.chunk.js": "/static/js/2.d0bf8f28.chunk.js",
-    "static/js/2.d0bf8f28.chunk.js.map": "/static/js/2.d0bf8f28.chunk.js.map",
-    "static/js/3.e9b35c09.chunk.js": "/static/js/3.e9b35c09.chunk.js",
-    "static/js/3.e9b35c09.chunk.js.map": "/static/js/3.e9b35c09.chunk.js.map",
+    "main.css": "/static/css/main.d13e704d.css",
+    "main.js": "/static/js/main.e265e6d7.js",
+    "static/js/453.a4820987.chunk.js": "/static/js/453.a4820987.chunk.js",
+    "static/media/gradient.png": "/static/media/gradient.af1065f35ec467fac249.png",
+    "static/media/portfolio.png": "/static/media/portfolio.3e73065c0a67321116d4.png",
+    "static/media/CHASERESUME.pdf": "/static/media/CHASERESUME.aa088573189957004f0c.pdf",
     "index.html": "/index.html",
-    "static/css/main.e0cf134e.chunk.css.map": "/static/css/main.e0cf134e.chunk.css.map",
-    "static/js/2.d0bf8f28.chunk.js.LICENSE.txt": "/static/js/2.d0bf8f28.chunk.js.LICENSE.txt",
-    "static/media/CHASERESUME2023.d214908c.pdf": "/static/media/CHASERESUME2023.d214908c.pdf",
-    "static/media/gradient.af1065f3.png": "/static/media/gradient.af1065f3.png",
-    "static/media/portfolio.3e73065c.png": "/static/media/portfolio.3e73065c.png"
+    "main.d13e704d.css.map": "/static/css/main.d13e704d.css.map",
+    "main.e265e6d7.js.map": "/static/js/main.e265e6d7.js.map",
+    "453.a4820987.chunk.js.map": "/static/js/453.a4820987.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c962a25f.js",
-    "static/js/2.d0bf8f28.chunk.js",
-    "static/css/main.e0cf134e.chunk.css",
-    "static/js/main.a388e514.chunk.js"
+    "static/css/main.d13e704d.css",
+    "static/js/main.e265e6d7.js"
   ]
 }

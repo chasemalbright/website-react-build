@@ -10,7 +10,9 @@ const HomeScreen = () => {
             <div className="about">
                 <h1>About Me</h1>
                 <p>
-                    I am a senior computer engineer from Houston, TX. I like to travel and be outside. Trying to have as much fun as possible...               </p>
+                    I am a senior computer engineer from Houston, TX. I attend Texas A&M University in College Station TX. Reach out to me if 
+                    you want to collaborate!            
+                </p>
             </div>
             
             <div className="container">
