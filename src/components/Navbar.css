@@ -3,10 +3,13 @@
 .navbar {
     width: 100%;
     /* background-color: #e03232; */
-    background-image: url('https://chasealbright.com/static/media/gradient.af1065f3.png');
+    background-image: url('../assets/gradient.png');
+    /* https://chasealbright.com/static/media/gradient.af1065f35ec467fac249.png */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
