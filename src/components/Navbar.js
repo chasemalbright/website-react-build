@@ -9,7 +9,8 @@ const Navbar = ({ click }) => {
         <nav className="navbar">
 
             <div className="imageContainer">
-                <img src={portfolio} alt="photo" className="image"/>
+                {/* <img src={portfolio} alt="photo" className="image"/> */}
+                {/* <img src={GRADIENT} alt="photo" className="image"/> */}
                 <img src={GRADIENT} alt="grad" className="image-hidden"/>
             </div>
 

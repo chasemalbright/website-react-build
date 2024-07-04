@@ -52,7 +52,7 @@ function Work() {
                     <p className="label">Houston-2024</p>
                     <p className="content">
                         Built out algorithmic trading operations and infrastructure for collocation 
-                        on CME and ICE. Developed low latency trading strategies based various OTC futures and 
+                        on CME and ICE. Developed low latency trading strategies based on various OTC futures and 
                         options products. Developed ML models for predicting S&P and natural gas performance which was utilized in 
                         trading strategies. Built in-house tools for analyzing natural gas and US power markets. Built 
                         latency sensitive and high performant proprietary trading systems. Worked with PMs and traders to implement strategies.
