@@ -92,7 +92,7 @@ const Projects = () => {
                     <h1>SolarTracker</h1>
                     <h2>Link to App: <a href="https://solartracker.chasealbright.com" target="_blank">HERE</a></h2>
                     <p className="content">
-                        SolarTracker is a hardware and software system I created to tracker the performance of solar assets across ERCOT. 
+                        SolarTracker is a hardware and software system I created to track the performance of solar assets across ERCOT. 
                         I did as a school project with Mercuria and it has even caught the interest of some venture funds. It's still early, but could be interesting!
                     </p>
                     <p className="skillLabel">Skills Involved:</p>
